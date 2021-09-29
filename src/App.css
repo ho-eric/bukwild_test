@@ -75,3 +75,19 @@
   justify-content: space-between;
   margin-top: auto;
 }
+
+@media screen and (max-device-width: 720px) {
+  .pageUIContent {
+    flex-direction: column;
+  }
+
+  .contactButton {
+    width: 5rem;
+  }
+
+  .cta {
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+  }
+}
